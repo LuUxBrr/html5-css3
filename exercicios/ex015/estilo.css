@@ -1,0 +1,17 @@
+@charset "UTF-8"; /* significa que o arquivo é compativel com acentuação*/
+
+body {
+    background-color: rgb(223, 224, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    background-color: aquamarine;
+}
+h2 {
+    color: white;
+}
+p {
+    text-align: justify;
+}

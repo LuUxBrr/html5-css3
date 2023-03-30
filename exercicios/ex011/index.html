@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Adaptáveis</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Quando for colocar sua imagem adaptável você tem que colocar o tipo dela, se é png ou jpg, na parte type se não irá dar erro-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível" >
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Goofy Phonk.mp3" controls></audio> <!--Essa tag também aceita outros formatos de áudio-->
+
+    <audio preload="metadata" controls loop> <!--Nesse parâmetro existem três tipos o "auto", "metadata" e o "none" o auto é pra carregar o site só quando o arquivo de áudio tiver sido baixado, o metadata só pega as informações do áudio mas não o baixa e carrega o site normalmente, já o none não carrega o arquivo de áudio carrega o site independentedo arquivo ter sido baixado ou não-->
+        <source src="midia/Goofy Phonk.mp3" type="audio/mpeg">
+    </audio>
+    <p>Se nenhum áudio apareceu pra você infelizmente seu navegador não suporta áudio o que é bem duvidoso na geração de hoje, mas relaxe é só clicar <a href="midia/Goofy Phonk.mp3">aqui pra baixar</a></p>
+</body>
+</html>

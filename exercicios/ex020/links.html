@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+    a {
+        color:rgb(30, 150, 19);
+        text-decoration: none;
+    }
+    a:active {
+        color: aqua;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a.special::after {
+        content: '⬅️';
+    }
+    a.special::before {
+        content: '➡️';
+    }
+</style>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCIYaaIQwG2u61ZT8kUU_lfA" target="_blank" class="special">Link Youtube</a></li>
+        <li><a href="https://www.instagram.com/luuxeduli/" target="_blank">Link Instagram</a></li>
+        <li><a href="https://www.roblox.com/games/292439477/Phantom-Forces" target="_blank" class="special">Phantom Forces</a></li>
+        <li><a href="https://www.roblox.com/games/2809202155/Hamon-REWORK-Your-Bizarre-Adventure" target="_blank">YBA</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    <video src="meu video.mp4" width="700" controls loop></video><!--Do mesmo jeito das imagens, sem o type-->
+
+    <video width="700" poster="images/capa do video.jpg" controls loop> <!--Do mesmo jeito dos áudios e da tag picture, parece ser melhor que só o video src, pois, na tag desse jeito você pode pôr vários formatos de vídeo para navegadores que não tiverem compatibilidade com mp4/O parâmetro poster serve como sendo a thumb do video-->
+        <source src="meu video.mp4" type="video/mp4">
+        <source src="meu video.webm" type="video/webm">  <!--Aqui precisa do type me todos eles-->
+        <source src="meu-video.m4v" type="video/m4v">
+        <source src="meu-video.ogv" type="video/ogv">
+        <p>Se nenhum video rodou pra você sinto lhe informar mas o seu navegador não suporta reprodução de vídeo o que é bem questionável da sua parte utilizar um navegador desses em pleno 2022, mas tudo bem tem como baixar o video mesmo então...</p>
+    </video>
+
+    <h1>Inserindo vídeos externos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S_Sp_-gicDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos externos do Vímeo</h1>
+    <iframe src="https://player.vimeo.com/video/751625638?h=f818da899f" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
