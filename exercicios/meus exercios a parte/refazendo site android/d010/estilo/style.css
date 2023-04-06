@@ -1,1 +1,53 @@
-html
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --cor-0: #F60CDB;
+    --cor-1: #47206B;
+    --cor-2: #3C0BD4;
+    --cor-3: #0C13F6;
+    --cor-4: #7900EB;
+    --cor-5: #C081EE;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+body {
+
+}
+header {
+
+}
+nav {
+
+}
+article {
+
+}
+#video {
+
+}
+aside {
+
+}
+footer {
+
+}
