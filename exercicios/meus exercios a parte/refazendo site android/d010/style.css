@@ -1,5 +1,58 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf');
+}
+
+
+
+:root {
+    --cor0: #F60CDB;
+    --cor1: #47206B;
+    --cor2: #3C0BD4;
+    --cor3: #0C13F6;
+    --cor4: #7900EB;
+    --cor5: #C081EE;
+
+    --fonte-normal: Arial, Verdana, Helvetica, sans-seriff;
+    --fonte-destaque: 'Oswald', cursive;
+    --fonte-android: 'Android';
+
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    
+    background-color: var(--cor5);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    padding: 65px;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+}
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover {
+    color: var(--cor3);
+    background-color: var(--cor4);
 }
