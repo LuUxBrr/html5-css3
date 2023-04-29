@@ -7,6 +7,15 @@
     <title>Fundo fixo de tela</title>
 </head>
 <style>
+    @font-face {
+        font-family: 'Classica';
+        src: url('fontes/Classica-Bold.ttf') format(truetype);
+
+    }
+
+    :root {
+        --fonte-padrão: 'Classica';
+    }
     body {
        /* height: 100vh;
         background-color: black;
@@ -20,7 +29,7 @@
 
             Obs: o size está certo na teoria mas na prática ainda não está disponivel pros navegadores
         */
-        background: black url('imagens/pattern004.png') center center repeat scroll;
+        background: black url('imagens/pattern003.png') center center repeat scroll;
     }
     main {
         background-color: white;
@@ -29,6 +38,7 @@
         padding: 10px;
         border: 1px solid darkblue;
         border-radius: 15px;
+        font-family: var(--fonte-padrão);
     }
 </style>
 <body>
