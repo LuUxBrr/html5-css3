@@ -10,8 +10,8 @@
 }
 
 @font-face {
-    font-family: 'Blank Space';
-    src: url(fontes/blank\ space.otf) format(opentype);
+    font-family: 'Venus Plant';
+    src: url(fontes/Venus\ Plant.ttf) format(truetype);
 }
 
 
@@ -24,7 +24,7 @@
     --cor5: #C081EE;
 
     --fonte-normal: Arial, Verdana, Helvetica, sans-seriff;
-    --fonte-destaque: 'Blank Space', sans-serif;
+    --fonte-destaque: 'Venus Plant', sans-serif;
     --fonte-android: 'Android';
 
 
@@ -75,6 +75,31 @@ nav > a:hover {
     background-color: var(--cor4);
 }
 
+main {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
 article {
     background-color: white;
+} 
+article > h1 {
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-weight: normal;
+    padding-left: 7px;
+} 
+article > h2 {
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    padding-left: 7px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: var(--cor4);
 }

@@ -82,7 +82,7 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
-    border-radius: 0px 0px 10px 10px; /*  <----- ESQUERDA E DIREITA DE CIMA E DEPOIS ESQUERDA E DIREITA DE BAIXO*/
+    border-radius: 0px 0px 10px 10px; /*  <----- ESQUERDA E DIREITA DE CIMA, E DEPOIS ESQUERDA E DIREITA DE BAIXO*/
 }
 main  h1 {
     color: var(--cor2);
