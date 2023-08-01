@@ -12,6 +12,7 @@
     table {
         width: 400px;
         border-collapse: collapse;
+        position: relative;
     }
     td, th {
         border: 1px solid black;
@@ -30,7 +31,12 @@
     td.num {
         text-align: right;
     }
-    tbody > tr:nth-child(odd) {
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+    }
+    tbody > tr:nth-child(odd) { /*2n-1*/
         background-color: lightgray;
         font-weight: bold;
     }
@@ -81,6 +87,120 @@
                 <td>Bahia</td>
                 <td class='num'>14 000 000</td>
             </tr>
+            <td class="pos">1</td>
+                <td>São Paulo</td>
+                <td class='num'>45 919 049</td>
+            </tr>
+            <tr>
+                <td class="pos">2</td>
+                <td>Minas Gerais</td>
+                <td class='num'>21 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">3</td>
+                <td>Rio de Janeiro</td>
+                <td class='num'> 17 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">4</td>
+                <td>Bahia</td>
+                <td class='num'>14 000 000</td>
+            </tr>
+            <td class="pos">1</td>
+                <td>São Paulo</td>
+                <td class='num'>45 919 049</td>
+            </tr>
+            <tr>
+                <td class="pos">2</td>
+                <td>Minas Gerais</td>
+                <td class='num'>21 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">3</td>
+                <td>Rio de Janeiro</td>
+                <td class='num'> 17 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">4</td>
+                <td>Bahia</td>
+                <td class='num'>14 000 000</td>
+            </tr>
+            <td class="pos">1</td>
+                <td>São Paulo</td>
+                <td class='num'>45 919 049</td>
+            </tr>
+            <tr>
+                <td class="pos">2</td>
+                <td>Minas Gerais</td>
+                <td class='num'>21 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">3</td>
+                <td>Rio de Janeiro</td>
+                <td class='num'> 17 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">4</td>
+                <td>Bahia</td>
+                <td class='num'>14 000 000</td>
+            </tr>
+            <td class="pos">1</td>
+                <td>São Paulo</td>
+                <td class='num'>45 919 049</td>
+            </tr>
+            <tr>
+                <td class="pos">2</td>
+                <td>Minas Gerais</td>
+                <td class='num'>21 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">3</td>
+                <td>Rio de Janeiro</td>
+                <td class='num'> 17 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">4</td>
+                <td>Bahia</td>
+                <td class='num'>14 000 000</td>
+            </tr>
+            <td class="pos">1</td>
+                <td>São Paulo</td>
+                <td class='num'>45 919 049</td>
+            </tr>
+            <tr>
+                <td class="pos">2</td>
+                <td>Minas Gerais</td>
+                <td class='num'>21 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">3</td>
+                <td>Rio de Janeiro</td>
+                <td class='num'> 17 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">4</td>
+                <td>Bahia</td>
+                <td class='num'>14 000 000</td>
+            </tr>
+            <td class="pos">1</td>
+                <td>São Paulo</td>
+                <td class='num'>45 919 049</td>
+            </tr>
+            <tr>
+                <td class="pos">2</td>
+                <td>Minas Gerais</td>
+                <td class='num'>21 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">3</td>
+                <td>Rio de Janeiro</td>
+                <td class='num'> 17 000 000</td>
+            </tr>
+            <tr>
+                <td class="pos">4</td>
+                <td>Bahia</td>
+                <td class='num'>14 000 000</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -89,5 +209,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur hic veniam, reprehenderit aliquam id tenetur ad, corrupti impedit, sunt ducimus saepe nam? Doloribus esse voluptatum recusandae iure! Consequatur, incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita pariatur aspernatur rem repudiandae architecto, quas error facere maiores, dicta sapiente aperiam, qui adipisci asperiores esse fuga. Dolor quidem voluptate excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis. Minima culpa optio iure ducimus ipsa, dolore expedita odit mollitia deleniti voluptas fuga id accusamus deserunt molestiae incidunt numquam. Dicta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores nesciunt exercitationem aspernatur. Earum amet dicta architecto. Cum iusto eos ab sit ex reprehenderit, sed porro, laudantium eius, dolorem suscipit similique.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur hic veniam, reprehenderit aliquam id tenetur ad, corrupti impedit, sunt ducimus saepe nam? Doloribus esse voluptatum recusandae iure! Consequatur, incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita pariatur aspernatur rem repudiandae architecto, quas error facere maiores, dicta sapiente aperiam, qui adipisci asperiores esse fuga. Dolor quidem voluptate excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis. Minima culpa optio iure ducimus ipsa, dolore expedita odit mollitia deleniti voluptas fuga id accusamus deserunt molestiae incidunt numquam. Dicta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores nesciunt exercitationem aspernatur. Earum amet dicta architecto. Cum iusto eos ab sit ex reprehenderit, sed porro, laudantium eius, dolorem suscipit similique.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur hic veniam, reprehenderit aliquam id tenetur ad, corrupti impedit, sunt ducimus saepe nam? Doloribus esse voluptatum recusandae iure! Consequatur, incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita pariatur aspernatur rem repudiandae architecto, quas error facere maiores, dicta sapiente aperiam, qui adipisci asperiores esse fuga. Dolor quidem voluptate excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis. Minima culpa optio iure ducimus ipsa, dolore expedita odit mollitia deleniti voluptas fuga id accusamus deserunt molestiae incidunt numquam. Dicta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores nesciunt exercitationem aspernatur. Earum amet dicta architecto. Cum iusto eos ab sit ex reprehenderit, sed porro, laudantium eius, dolorem suscipit similique.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur hic veniam, reprehenderit aliquam id tenetur ad, corrupti impedit, sunt ducimus saepe nam? Doloribus esse voluptatum recusandae iure! Consequatur, incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita pariatur aspernatur rem repudiandae architecto, quas error facere maiores, dicta sapiente aperiam, qui adipisci asperiores esse fuga. Dolor quidem voluptate excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis. Minima culpa optio iure ducimus ipsa, dolore expedita odit mollitia deleniti voluptas fuga id accusamus deserunt molestiae incidunt numquam. Dicta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores nesciunt exercitationem aspernatur. Earum amet dicta architecto. Cum iusto eos ab sit ex reprehenderit, sed porro, laudantium eius, dolorem suscipit similique.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur hic veniam, reprehenderit aliquam id tenetur ad, corrupti impedit, sunt ducimus saepe nam? Doloribus esse voluptatum recusandae iure! Consequatur, incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita pariatur aspernatur rem repudiandae architecto, quas error facere maiores, dicta sapiente aperiam, qui adipisci asperiores esse fuga. Dolor quidem voluptate excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis. Minima culpa optio iure ducimus ipsa, dolore expedita odit mollitia deleniti voluptas fuga id accusamus deserunt molestiae incidunt numquam. Dicta! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores nesciunt exercitationem aspernatur. Earum amet dicta architecto. Cum iusto eos ab sit ex reprehenderit, sed porro, laudantium eius, dolorem suscipit similique.</p>
 </body>
 </html>
