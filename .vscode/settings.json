@@ -1,5 +1,8 @@
 {
-    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "editor.fontSize": 20,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Kimbie Dark",
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.ChromeDebuggingAttachment": false
 }
