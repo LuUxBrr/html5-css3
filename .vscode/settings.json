@@ -4,5 +4,6 @@
     "workbench.colorTheme": "Kimbie Dark",
     "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-    "liveServer.settings.ChromeDebuggingAttachment": false
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "files.autoSave": "afterDelay"
 }
